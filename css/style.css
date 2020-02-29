@@ -161,9 +161,7 @@ body {
             margin-bottom: 35px;
         }
     
-    .bar-height{
-        height: 5px;
-    }
+    
     
     
     .shadow-box img {
@@ -172,7 +170,60 @@ body {
         border-radius: 5px;
         position: relative;
     }
+
+    /* progress bar */
+
+
+    .progress {
+        margin-bottom: 25px;
+    }
+    .bar-height{
+        height: 5px;
+    }
+
+    .progress-bar {
+        background-color: #d9832e;
+        position: relative;
+    }
     
+    
+     
+     .orange>label{
+        display: inline-block;
+        color: black;
+        right: 0;
+        position: absolute;
+    }
+   
+     .feature-box {
+         display: flex;
+         border: 2px solid #d9832e;
+         border-radius: 5px;
+         background-color: #eaedf2;
+         padding: 18px 15px;
+     } 
+
+     .feature-box .media-icon {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        color: #d9832e;}
+
+        .feature-box{
+            margin-bottom: 20px;
+        }
+    
+       .feature-box .media-body h5{
+       font-size: 16px
+       }
+
+
+
+
+
+
+
     .services{
         background-color: #eaedf2;
     }
@@ -192,6 +243,15 @@ body {
         width: 50px;
     }
     
+    .far {
+        position: absolute;
+        left: 25%;
+        top: 26%;
+        font-size: 35px;
+        color: #d9832e;
+        font-weight: 400;
+    }
+
     .box {
         padding: 40px 30px;
         background: #ffffff;
@@ -222,6 +282,10 @@ body {
         top: -10px;
     }
     
+    .box:hover .far{
+        color: #eee
+    }
+
     .box:hover>.icon {
         border-color: rgba(255, 255, 255, 0.6);
     }
@@ -238,5 +302,6 @@ body {
         border: 2px dotted orange;
         border-radius: 50%;
         margin-bottom: 5px;
+        position: relative;
     }
     
